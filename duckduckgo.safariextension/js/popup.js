@@ -87,7 +87,7 @@ window.addEventListener("load", function(){
 
 function search(){
   var input = document.getElementById("search_form_input_homepage").value;
- 
+
   if (safari.extension.settings.remember_last_search) {
     localStorage['last_search'] = input;
   } else {
@@ -107,9 +107,9 @@ function search(){
 
   if (safari.application.activeBrowserWindow.activeTab.url === undefined ||
       safari.application.activeBrowserWindow.activeTab.url === '') {
-    safari.application.activeBrowserWindow.activeTab.url = "https://duckduckgo.com/?q="+encodeURIComponent(input)+special;
+    safari.application.activeBrowserWindow.activeTab.url = "https://next.duckduckgo.com/?q="+encodeURIComponent(input)+special;
   } else {
-    openTab("https://duckduckgo.com/?q="+encodeURIComponent(input)+special);
+    openTab("https://next.duckduckgo.com/?q="+encodeURIComponent(input)+special);
  }
 
   var search = document.getElementById("search_form_input_homepage");
@@ -203,7 +203,7 @@ function add_bang(bang) {
   var inp = document.getElementById('search_form_input_homepage');
 
   var bang_regex = /\!\w+/;
-   
+
   if (inp.value === prefill_text || inp.value === '') {
     inp.style.color = '#000';
     inp.value = bang + ' ';
