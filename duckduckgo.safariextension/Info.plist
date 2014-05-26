@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>DuckDuckGo</string>
+	<string>Nikhil Srinivasan</string>
 	<key>Builder Version</key>
 	<string>7536.29.13</string>
 	<key>CFBundleDisplayName</key>
@@ -84,6 +84,7 @@
 		</array>
 		<key>Whitelist</key>
 		<array>
+			<string>http://next.duckduckgo.com/*</string>
 			<string>http://api.duckduckgo.com/*</string>
 			<string>http://*.google.com/*</string>
 			<string>http://*.google.ad/*</string>
@@ -465,7 +466,7 @@
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>DuckDuckGo enhancements for Safari</string>
+	<string>DuckDuckGo Next for Safari</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -481,6 +482,6 @@
 	<key>Update Manifest URL</key>
 	<string>http://duckduckgo.com/extensions/duckduckgo.plist</string>
 	<key>Website</key>
-	<string>http://duckduckgo.com</string>
+	<string>http://next.duckduckgo.com</string>
 </dict>
 </plist>
