@@ -5,17 +5,17 @@
 	<key>Author</key>
 	<string>Nikhil Srinivasan</string>
 	<key>Builder Version</key>
-	<string>7536.29.13</string>
+	<string>9537.75.14</string>
 	<key>CFBundleDisplayName</key>
-	<string>DuckDuckGo</string>
+	<string>DuckDuckGo Next</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.duckduckgo.safari</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.6.1</string>
+	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>23</string>
+	<string>1</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Context Menu Items</key>
@@ -52,13 +52,13 @@
 				<key>Image</key>
 				<string>img/icon_18.png</string>
 				<key>Label</key>
-				<string>DuckDuckGo</string>
+				<string>DuckDuckGo Next</string>
 				<key>Palette Label</key>
-				<string>DuckDuckGo</string>
+				<string>DuckDuckGo Next</string>
 				<key>Popover</key>
 				<string>popup</string>
 				<key>Tool Tip</key>
-				<string>DuckDuckGo</string>
+				<string>DuckDuckGo Next</string>
 			</dict>
 		</array>
 	</dict>
