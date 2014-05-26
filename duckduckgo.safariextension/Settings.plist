@@ -8,7 +8,7 @@
 		<key>Key</key>
 		<string>ddg_locationbar</string>
 		<key>Title</key>
-		<string>DuckDuckGo as default (in Smart Search field)</string>
+		<string>DuckDuckGo Next as default (in Smart Search field)</string>
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>
