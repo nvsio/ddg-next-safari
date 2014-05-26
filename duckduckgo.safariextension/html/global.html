@@ -4,8 +4,8 @@
     <meta charset='utf-8' />
     <title>DuckDuckGo</title>
     <script type="text/javascript">
-    var DDG_URL = 'https://duckduckgo.com/?q=';
-    var THANKS_URL = 'https://duckduckgo.com/extensions/thanks/';
+    var DDG_URL = 'https://next.duckduckgo.com/?q=';
+    var THANKS_URL = 'https://next.duckduckgo.com/extensions/thanks/';
     localStorage['last_search'] = '';
 
   window.onload = function() {
@@ -68,7 +68,7 @@
         }
 
         var searchTerms = event.userInfo;
-        var searchURL = "https://duckduckgo.com/?q=" + searchTerms;
+        var searchURL = "https://next.duckduckgo.com/?q=" + searchTerms;
 
         var tab = safari.application.activeBrowserWindow.openTab();
         tab.url = searchURL;
